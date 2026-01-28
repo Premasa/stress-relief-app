@@ -208,6 +208,7 @@ export function SoundsModule() {
       setCurrentSound(null)
       setPlayer(null)
     } else {
+      setPlayer(null) // Clear old player reference before switching
       setCurrentSound(sound)
     }
   }, [currentSound])
@@ -228,6 +229,21 @@ export function SoundsModule() {
       }
     }
   }, [isMuted, player])
+
+  // Force video load when sound changes (redundant safety check)
+  useEffect(() => {
+    if (player && currentSound) {
+      // Small delay to ensure player is ready
+      const timer = setTimeout(() => {
+        try {
+          player.loadVideoById(currentSound.videoId)
+        } catch (e) {
+          console.error("Error loading video", e)
+        }
+      }, 100)
+      return () => clearTimeout(timer)
+    }
+  }, [currentSound, player])
 
   const onPlayerReady = (event: { target: YouTubePlayer }) => {
     setPlayer(event.target)
