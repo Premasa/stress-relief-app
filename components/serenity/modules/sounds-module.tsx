@@ -242,20 +242,6 @@ export function SoundsModule() {
     return gradients[sound.id] || "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
   }
 
-  const opts: YouTubeProps["opts"] = {
-    height: "100%",
-    width: "100%",
-    playerVars: {
-      autoplay: 1,
-      loop: 1,
-      controls: 0,
-      showinfo: 0,
-      rel: 0,
-      modestbranding: 1,
-      playsinline: 1,
-    },
-  }
-
   return (
     <section className="space-y-6 animate-in fade-in duration-300">
       {/* Big Video Player - Shows the matched YouTube video WITH AUDIO when sound is playing */}
@@ -313,147 +299,148 @@ export function SoundsModule() {
         </div>
 
         {/* Now Playing Info */}
-        <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between z-10">
-          <div className="px-5 py-3 rounded-2xl bg-white/95 backdrop-blur-md shadow-xl flex items-center gap-3">
-            <span className="w-3 h-3 rounded-full bg-green-500 animate-pulse" />
-            <span className="font-semibold text-gray-900">Now Playing:</span>
-            <span className="text-gray-700">{currentSound.name}</span>
+        {currentSound && (
+          <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between z-10">
+            <div className="px-5 py-3 rounded-2xl bg-white/95 backdrop-blur-md shadow-xl flex items-center gap-3">
+              <span className="w-3 h-3 rounded-full bg-green-500 animate-pulse" />
+              <span className="font-semibold text-gray-900">Now Playing:</span>
+              <span className="text-gray-700">{currentSound.name}</span>
+            </div>
+            <button
+              onClick={() => {
+                setCurrentSound(null)
+              }}
+              className="px-5 py-3 rounded-2xl bg-red-500/90 hover:bg-red-600 text-white backdrop-blur-md shadow-xl transition-colors font-medium flex items-center gap-2"
+            >
+              <Pause className="w-4 h-4" />
+              Stop
+            </button>
           </div>
-          <button
-            onClick={() => {
-              setCurrentSound(null)
-              // No need to setPlayer(null) as we removed the ref
-            }}
-            className="px-5 py-3 rounded-2xl bg-red-500/90 hover:bg-red-600 text-white backdrop-blur-md shadow-xl transition-colors font-medium flex items-center gap-2"
-          >
-            <Pause className="w-4 h-4" />
-            Stop
-          </button>
-        </div>
-      </>
-      ) : (
-      <div
-        className="absolute inset-0 flex items-center justify-center"
-        style={{
-          background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
-        }}
-      >
-        <div className="text-center">
-          <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-white/10 flex items-center justify-center">
-            <Volume2 className="w-12 h-12 text-white/60" />
-          </div>
-          <p className="text-white/90 text-xl font-medium mb-2">Select a Sound to Play</p>
-          <p className="text-white/60">Choose from nature, night, cozy, or urban sounds below</p>
-        </div>
-      </div>
         )}
-    </div>
 
-      {/* Category Filter */ }
-  <div className="flex items-center gap-2 overflow-x-auto pb-2">
-    {categories.map((category) => (
-      <button
-        key={category}
-        onClick={() => setSelectedCategory(category)}
-        className={`flex items-center gap-2 px-4 py-2 rounded-full whitespace-nowrap transition-all ${selectedCategory === category
-          ? "bg-primary text-primary-foreground shadow-md"
-          : "bg-secondary/50 text-secondary-foreground hover:bg-secondary"
-          }`}
-      >
-        {categoryIcons[category]}
-        <span>{category}</span>
-      </button>
-    ))}
-  </div>
-
-  {/* Sound Cards Grid - Each card has an IMAGE */ }
-  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-    {filteredSounds.map((sound) => (
-      <button
-        key={sound.id}
-        onClick={() => playSound(sound)}
-        className={`group relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02] ${isPlaying(sound.id) ? "ring-4 ring-primary ring-offset-2 ring-offset-background" : ""
-          }`}
-      >
-        {/* Image Background */}
-        {!imageErrors.has(sound.id) ? (
-          <Image
-            src={sound.image || "/placeholder.svg"}
-            alt={sound.name}
-            fill
-            className="object-cover transition-transform duration-500 group-hover:scale-110"
-            onError={() => handleImageError(sound.id)}
-            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
-          />
-        ) : (
+        {!currentSound && (
           <div
-            className="absolute inset-0"
-            style={{ background: getGradient(sound) }}
-          />
-        )}
-
-        {/* Colorful Gradient Overlay */}
-        <div
-          className="absolute inset-0 opacity-40 mix-blend-overlay transition-opacity duration-300 group-hover:opacity-60"
-          style={{ background: getGradient(sound) }}
-        />
-
-        {/* Dark overlay for text readability */}
-        <div className={`absolute inset-0 transition-all duration-300 ${isPlaying(sound.id)
-          ? "bg-primary/30"
-          : "bg-gradient-to-t from-black/80 via-black/30 to-transparent group-hover:from-black/90"
-          }`} />
-
-        {/* Play/Pause Icon */}
-        <div className={`absolute inset-0 flex items-center justify-center transition-all duration-300 ${isPlaying(sound.id) ? "opacity-100" : "opacity-0 group-hover:opacity-100"
-          }`}>
-          <div className={`w-14 h-14 rounded-full flex items-center justify-center backdrop-blur-sm transition-all ${isPlaying(sound.id)
-            ? "bg-white text-primary scale-100"
-            : "bg-white/90 text-gray-800 scale-90 group-hover:scale-100"
-            }`}>
-            {isPlaying(sound.id) ? (
-              <Pause className="w-7 h-7" />
-            ) : (
-              <Play className="w-7 h-7 ml-1" />
-            )}
-          </div>
-        </div>
-
-        {/* Sound Info */}
-        <div className="absolute bottom-0 left-0 right-0 p-3">
-          <h3 className="text-white font-semibold text-sm drop-shadow-lg">{sound.name}</h3>
-          <span className="text-white/80 text-xs drop-shadow">{sound.category}</span>
-        </div>
-
-        {/* Playing indicator */}
-        {isPlaying(sound.id) && (
-          <div className="absolute top-2 right-2">
-            <div className="flex items-end gap-0.5 h-4">
-              {[...Array(4)].map((_, i) => (
-                <div
-                  key={i}
-                  className="w-1 bg-white rounded-full animate-pulse"
-                  style={{
-                    height: `${40 + Math.random() * 60}%`,
-                    animationDuration: `${0.3 + i * 0.1}s`,
-                  }}
-                />
-              ))}
+            className="absolute inset-0 flex items-center justify-center"
+            style={{
+              background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
+            }}
+          >
+            <div className="text-center">
+              <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-white/10 flex items-center justify-center">
+                <Volume2 className="w-12 h-12 text-white/60" />
+              </div>
+              <p className="text-white/90 text-xl font-medium mb-2">Select a Sound to Play</p>
+              <p className="text-white/60">Choose from nature, night, cozy, or urban sounds below</p>
             </div>
           </div>
         )}
-      </button>
-    ))}
-  </div>
+      </div>
 
-  {/* Info message */ }
-  <div className="bg-secondary/30 rounded-2xl p-4 text-center">
-    <p className="text-muted-foreground text-sm">
-      Click on any sound card to play. The video player above will show the matching video WITH audio.
-      Use the mute button to toggle sound on/off.
-    </p>
-    <p className="text-xs text-muted-foreground/50 mt-2">v3.0 (Native Player)</p>
-  </div>
+      {/* Category Filter */}
+      <div className="flex items-center gap-2 overflow-x-auto pb-2">
+        {categories.map((category) => (
+          <button
+            key={category}
+            onClick={() => setSelectedCategory(category)}
+            className={`flex items-center gap-2 px-4 py-2 rounded-full whitespace-nowrap transition-all ${selectedCategory === category
+              ? "bg-primary text-primary-foreground shadow-md"
+              : "bg-secondary/50 text-secondary-foreground hover:bg-secondary"
+              }`}
+          >
+            {categoryIcons[category]}
+            <span>{category}</span>
+          </button>
+        ))}
+      </div>
+
+      {/* Sound Cards Grid - Each card has an IMAGE */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+        {filteredSounds.map((sound) => (
+          <button
+            key={sound.id}
+            onClick={() => playSound(sound)}
+            className={`group relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02] ${isPlaying(sound.id) ? "ring-4 ring-primary ring-offset-2 ring-offset-background" : ""
+              }`}
+          >
+            {/* Image Background */}
+            {!imageErrors.has(sound.id) ? (
+              <Image
+                src={sound.image || "/placeholder.svg"}
+                alt={sound.name}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                onError={() => handleImageError(sound.id)}
+                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+              />
+            ) : (
+              <div
+                className="absolute inset-0"
+                style={{ background: getGradient(sound) }}
+              />
+            )}
+
+            {/* Colorful Gradient Overlay */}
+            <div
+              className="absolute inset-0 opacity-40 mix-blend-overlay transition-opacity duration-300 group-hover:opacity-60"
+              style={{ background: getGradient(sound) }}
+            />
+
+            {/* Dark overlay for text readability */}
+            <div className={`absolute inset-0 transition-all duration-300 ${isPlaying(sound.id)
+              ? "bg-primary/30"
+              : "bg-gradient-to-t from-black/80 via-black/30 to-transparent group-hover:from-black/90"
+              }`} />
+
+            {/* Play/Pause Icon */}
+            <div className={`absolute inset-0 flex items-center justify-center transition-all duration-300 ${isPlaying(sound.id) ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+              }`}>
+              <div className={`w-14 h-14 rounded-full flex items-center justify-center backdrop-blur-sm transition-all ${isPlaying(sound.id)
+                ? "bg-white text-primary scale-100"
+                : "bg-white/90 text-gray-800 scale-90 group-hover:scale-100"
+                }`}>
+                {isPlaying(sound.id) ? (
+                  <Pause className="w-7 h-7" />
+                ) : (
+                  <Play className="w-7 h-7 ml-1" />
+                )}
+              </div>
+            </div>
+
+            {/* Sound Info */}
+            <div className="absolute bottom-0 left-0 right-0 p-3">
+              <h3 className="text-white font-semibold text-sm drop-shadow-lg">{sound.name}</h3>
+              <span className="text-white/80 text-xs drop-shadow">{sound.category}</span>
+            </div>
+
+            {/* Playing indicator */}
+            {isPlaying(sound.id) && (
+              <div className="absolute top-2 right-2">
+                <div className="flex items-end gap-0.5 h-4">
+                  {[...Array(4)].map((_, i) => (
+                    <div
+                      key={i}
+                      className="w-1 bg-white rounded-full animate-pulse"
+                      style={{
+                        height: `${40 + Math.random() * 60}%`,
+                        animationDuration: `${0.3 + i * 0.1}s`,
+                      }}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
+          </button>
+        ))}
+      </div>
+
+      {/* Info message */}
+      <div className="bg-secondary/30 rounded-2xl p-4 text-center">
+        <p className="text-muted-foreground text-sm">
+          Click on any sound card to play. The video player above will show the matching video WITH audio.
+          Use the mute button to toggle sound on/off.
+        </p>
+        <p className="text-xs text-muted-foreground/50 mt-2">v3.0 (Native Player)</p>
+      </div>
     </section >
   )
 }
