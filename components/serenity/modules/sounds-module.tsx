@@ -200,6 +200,7 @@ export function SoundsModule() {
   }, [])
 
   const playSound = useCallback((sound: Sound) => {
+    console.log('[SoundsModule v3.1] Playing sound:', sound.name, '| Video ID:', sound.videoId)
     if (currentSound?.id === sound.id) {
       setCurrentSound(null)
     } else {
@@ -241,6 +242,14 @@ export function SoundsModule() {
     }
     return gradients[sound.id] || "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
   }
+
+  // Debug logging
+  useEffect(() => {
+    if (currentSound) {
+      console.log('[SoundsModule v3.1] currentSound changed to:', currentSound.name, '| Video ID:', currentSound.videoId)
+      console.log('[SoundsModule v3.1] Iframe src will be:', `https://www.youtube.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1`)
+    }
+  }, [currentSound])
 
   return (
     <section className="space-y-6 animate-in fade-in duration-300">
@@ -439,7 +448,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-muted-foreground/50 mt-2">v3.0 (Native Player)</p>
+        <p className="text-xs text-muted-foreground/50 mt-2">v3.1 Debug (Check Console)</p>
       </div>
     </section >
   )
