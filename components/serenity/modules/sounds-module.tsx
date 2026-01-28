@@ -98,7 +98,7 @@ const sounds: Sound[] = [
     name: "Owl Sounds",
     category: "Night",
     image: "https://images.pexels.com/photos/1181181/pexels-photo-1181181.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "eXWJwFcdgDQ", // Owl Sounds Night
+    videoId: "Jgkc7I49lSk", // Owl sounds 10 hours
   },
   // Cozy Sounds
   {
