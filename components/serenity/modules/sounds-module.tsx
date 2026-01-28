@@ -2,7 +2,6 @@
 
 import React, { useState, useRef, useEffect, useCallback } from "react"
 import Image from "next/image"
-import Image from "next/image"
 import {
   Play,
   Pause,
@@ -203,9 +202,7 @@ export function SoundsModule() {
   const playSound = useCallback((sound: Sound) => {
     if (currentSound?.id === sound.id) {
       setCurrentSound(null)
-      setPlayer(null)
     } else {
-      setPlayer(null) // Clear old player reference before switching
       setCurrentSound(sound)
     }
   }, [currentSound])
