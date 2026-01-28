@@ -294,6 +294,7 @@ export function SoundsModule() {
           <>
             <div className="absolute inset-0 w-full h-full">
               <YouTube
+                key={currentSound.id} // Force re-mount when sound changes
                 videoId={currentSound.videoId}
                 opts={opts}
                 onReady={onPlayerReady}
