@@ -315,6 +315,11 @@ export function SoundsModule() {
                 opts={opts}
                 onReady={onPlayerReady}
                 onEnd={(e) => e.target.playVideo()} // Loop manually for robustness
+                onError={(e) => {
+                  console.error("Video Error", e);
+                  // Fallback to a safe known video (Rain) if the requested one fails
+                  e.target.loadVideoById("mPZkdNFkNps");
+                }}
                 className="w-full h-full"
                 iframeClassName="w-full h-full object-cover"
               />
@@ -497,6 +502,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
+        <p className="text-xs text-muted-foreground/50 mt-2">v2.1 (Live Update)</p>
       </div>
     </section>
   )
