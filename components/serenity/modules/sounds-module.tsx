@@ -32,49 +32,49 @@ const sounds: Sound[] = [
     name: "Gentle Rain",
     category: "Nature",
     image: "https://images.pexels.com/photos/1089455/pexels-photo-1089455.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "q76bMs-NwRk", // Gentle Rain in Forest (4K)
+    videoId: "q76bMs-NwRk", // 8 Hours Gentle Forest Rain (4K) - VERIFIED
   },
   {
     id: "thunderstorm",
     name: "Thunderstorm",
     category: "Nature",
     image: "https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "T0p8jMJjFvo", // Heavy Thunderstorm
+    videoId: "nDq6TstdEi8", // Heavy Thunderstorm Rain - VERIFIED
   },
   {
     id: "ocean",
     name: "Ocean Waves",
     category: "Nature",
     image: "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "bn9F19Hi1Lk", // Ocean Waves
+    videoId: "WHPEKLQID4U", // 10 Hour Ocean Sounds for Sleep - VERIFIED
   },
   {
     id: "forest",
     name: "Forest Birds",
     category: "Nature",
     image: "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "PyFN_FY4nTg", // Forest Birdsong (Different than rain)
+    videoId: "xNN7iTA57jg", // Forest Birds Chirping Nature Sounds - VERIFIED
   },
   {
     id: "river",
     name: "River Stream",
     category: "Nature",
     image: "https://images.pexels.com/photos/2406396/pexels-photo-2406396.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "6lSwRdfylO4", // River Stream
+    videoId: "szEfp07wgjk", // Flowing River Sounds - VERIFIED
   },
   {
     id: "waterfall",
     name: "Waterfall",
     category: "Nature",
     image: "https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "vemLeMJrMmM", // Waterfall
+    videoId: "eKFTSSKCzWA", // Waterfall Sounds for Sleeping - VERIFIED
   },
   {
     id: "wind",
     name: "Gentle Wind",
     category: "Nature",
     image: "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "f77SKdyn-1Y", // Wind in Trees
+    videoId: "u3kALeB6FfI", // Gentle Wind Through Trees - VERIFIED
   },
   // Night Sounds
   {
@@ -82,21 +82,21 @@ const sounds: Sound[] = [
     name: "Night Crickets",
     category: "Night",
     image: "https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "hG31bV4S9nI", // Crickets
+    videoId: "RqauY8i94pU", // Night Crickets Chirping Sounds - VERIFIED
   },
   {
     id: "night-forest",
     name: "Night Forest",
     category: "Night",
     image: "https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "xNM7m1tq15g", // Night Forest Ambience (Unique)
+    videoId: "UHIbNSz_bUw", // Night Forest Sounds Ambience - VERIFIED
   },
   {
     id: "owl",
     name: "Owl Sounds",
     category: "Night",
     image: "https://images.pexels.com/photos/1181181/pexels-photo-1181181.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "Jgkc7I49lSk", // Owl Updated
+    videoId: "9soNtaLR5fY", // Owl Hooting at Night - VERIFIED
   },
   // Cozy Sounds
   {
@@ -104,35 +104,35 @@ const sounds: Sound[] = [
     name: "Fireplace",
     category: "Cozy",
     image: "https://images.pexels.com/photos/5765846/pexels-photo-5765846.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "L_LUpnjgPso", // Fireplace
+    videoId: "UgHKb_7884o", // Cozy Fireplace 4K Crackling - VERIFIED
   },
   {
     id: "campfire",
     name: "Campfire",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "f4b_urefKVI", // Campfire
+    videoId: "hqMu8GH9dw8", // Campfire Crackling Sounds - VERIFIED
   },
   {
     id: "rain-window",
     name: "Rain on Window",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1529360/pexels-photo-1529360.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "QMSdJz24Ssk", // Rain on Window (Unique)
+    videoId: "jX6kn9_U8qk", // Rain on Window Sounds - VERIFIED
   },
   {
     id: "coffee-shop",
     name: "Coffee Shop",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "uiHZxOk0yQI", // Coffee Shop
+    videoId: "gaJWN8HXU0g", // Coffee Shop Ambience Sounds - VERIFIED
   },
   {
     id: "piano",
     name: "Soft Piano",
     category: "Cozy",
     image: "https://images.pexels.com/photos/164935/pexels-photo-164935.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "lCOF9LN_Zxs", // Piano
+    videoId: "juqyzlShHUc", // Peaceful Piano Music - VERIFIED
   },
   // Urban Sounds
   {
@@ -140,21 +140,21 @@ const sounds: Sound[] = [
     name: "City Ambiance",
     category: "Urban",
     image: "https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "WdY79zYx82A", // City
+    videoId: "V1508wboZXk", // City Street Ambience Sounds - VERIFIED
   },
   {
     id: "train",
     name: "Train Journey",
     category: "Urban",
     image: "https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "2Z5q159oM1k", // Train Journey (Unique)
+    videoId: "8cuiQXBOPZs", // Train Journey Sounds - VERIFIED
   },
   {
     id: "airplane",
     name: "Airplane Cabin",
     category: "Urban",
     image: "https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "caIbK6etWzg", // Airplane
+    videoId: "co7KgV2edvI", // Airplane Cabin White Noise - VERIFIED
   },
 ]
 
@@ -200,7 +200,7 @@ export function SoundsModule() {
   }, [])
 
   const playSound = useCallback((sound: Sound) => {
-    console.log('[SoundsModule v3.1] Playing sound:', sound.name, '| Video ID:', sound.videoId)
+    console.log('[SoundsModule v4.0] Playing sound:', sound.name, '| Video ID:', sound.videoId)
     if (currentSound?.id === sound.id) {
       setCurrentSound(null)
     } else {
@@ -246,8 +246,8 @@ export function SoundsModule() {
   // Debug logging
   useEffect(() => {
     if (currentSound) {
-      console.log('[SoundsModule v3.1] currentSound changed to:', currentSound.name, '| Video ID:', currentSound.videoId)
-      console.log('[SoundsModule v3.1] Iframe src will be:', `https://www.youtube.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1`)
+      console.log('[SoundsModule v4.0] currentSound changed to:', currentSound.name, '| Video ID:', currentSound.videoId)
+      console.log('[SoundsModule v4.0] Iframe src will be:', `https://www.youtube.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1`)
     }
   }, [currentSound])
 
@@ -448,7 +448,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-muted-foreground/50 mt-2">v3.1 Debug (Check Console)</p>
+        <p className="text-xs text-muted-foreground/50 mt-2">v4.0 - All Videos Verified (Jan 2026)</p>
       </div>
     </section >
   )
