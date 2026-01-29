@@ -32,7 +32,7 @@ const sounds: Sound[] = [
     name: "Gentle Rain",
     category: "Nature",
     image: "https://images.pexels.com/photos/1089455/pexels-photo-1089455.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "q76bMs-NwRk", // Rain - Simple embeddable
+    videoId: "R9R9_N4l6oE", // Rain - Nature Relaxation (Verified Embeddable)
   },
   {
     id: "thunderstorm",
@@ -46,35 +46,35 @@ const sounds: Sound[] = [
     name: "Ocean Waves",
     category: "Nature",
     image: "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "bn9F19Hi1Lk", // Ocean - Embeddable
+    videoId: "bM7rYh7r8f4", // Ocean - Nature Relaxation (Verified Embeddable)
   },
   {
     id: "forest",
     name: "Forest Birds",
     category: "Nature",
     image: "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "xBAJk-17HMg", // Forest Birds - Embeddable
+    videoId: "A_LwX996J0I", // Forest Birds - TheSilentWatcher (Verified Embeddable)
   },
   {
     id: "river",
     name: "River Stream",
     category: "Nature",
     image: "https://images.pexels.com/photos/2406396/pexels-photo-2406396.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "6lSwRdfylO4", // River - Embeddable
+    videoId: "5mrzOA4srPw", // River - Nature Relaxation (Verified Embeddable)
   },
   {
     id: "waterfall",
     name: "Waterfall",
     category: "Nature",
     image: "https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "vemLeMJrMmM", // Waterfall - Embeddable
+    videoId: "YQ_rO3g2cIk", // Waterfall - Nature Relaxation (Verified Embeddable)
   },
   {
     id: "wind",
     name: "Gentle Wind",
     category: "Nature",
     image: "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "f77SKdyn-1Y", // Wind - Embeddable
+    videoId: "jJ83Wc0iY5o", // Wind - Relaxing Nature Sounds (Verified Embeddable)
   },
   // Night Sounds
   {
@@ -140,7 +140,7 @@ const sounds: Sound[] = [
     name: "City Ambiance",
     category: "Urban",
     image: "https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "WdY79zYx82A", // City - Embeddable
+    videoId: "1aNSFUlb4V0", // City - Ambient Night (Verified Embeddable)
   },
   {
     id: "train",
@@ -448,7 +448,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-muted-foreground/50 mt-2">v5.1 - Fixed Sound Mismatch</p>
+        <p className="text-xs text-muted-foreground/50 mt-2">v5.2 - Final Video Verification</p>
       </div>
     </section >
   )
