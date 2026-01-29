@@ -32,49 +32,49 @@ const sounds: Sound[] = [
     name: "Gentle Rain",
     category: "Nature",
     image: "https://images.pexels.com/photos/1089455/pexels-photo-1089455.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "mPZkdNFkNps", // 10 Hours Gentle Rain - 60M+ views
+    videoId: "q76bMs-NwRk", // Rain - Simple embeddable
   },
   {
     id: "thunderstorm",
     name: "Thunderstorm",
     category: "Nature",
     image: "https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "nDGKK6y8OtQ", // Thunderstorm Sounds - 100M+ views
+    videoId: "T0p8jMJjFvo", // Thunderstorm - Embeddable
   },
   {
     id: "ocean",
     name: "Ocean Waves",
     category: "Nature",
     image: "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "V1Pl8CzNzCw", // Ocean Waves 24 Hours - Popular
+    videoId: "bn9F19Hi1Lk", // Ocean - Embeddable
   },
   {
     id: "forest",
     name: "Forest Birds",
     category: "Nature",
     image: "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "xNN7iTA57jg", // Forest Birds - Popular
+    videoId: "xBAJk-17HMg", // Forest Birds - Embeddable
   },
   {
     id: "river",
     name: "River Stream",
     category: "Nature",
     image: "https://images.pexels.com/photos/2406396/pexels-photo-2406396.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "l0d9StxKqKw", // River Sounds 10 Hours - Popular
+    videoId: "6lSwRdfylO4", // River - Embeddable
   },
   {
     id: "waterfall",
     name: "Waterfall",
     category: "Nature",
     image: "https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "qJL0InHdazw", // Waterfall Sounds - Popular
+    videoId: "vemLeMJrMmM", // Waterfall - Embeddable
   },
   {
     id: "wind",
     name: "Gentle Wind",
     category: "Nature",
     image: "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "Q4FXfhilcik", // Wind Through Trees - Popular
+    videoId: "f77SKdyn-1Y", // Wind - Embeddable
   },
   // Night Sounds
   {
@@ -82,21 +82,21 @@ const sounds: Sound[] = [
     name: "Night Crickets",
     category: "Night",
     image: "https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "Y9IJ-HimxVk", // Crickets Chirping - 10M+ views
+    videoId: "hG31bV4S9nI", // Crickets - Embeddable
   },
   {
     id: "night-forest",
     name: "Night Forest",
     category: "Night",
     image: "https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "ebWF6s2v-Zc", // Forest Night Sounds - Popular
+    videoId: "xNM7m1tq15g", // Night Forest - Embeddable
   },
   {
     id: "owl",
     name: "Owl Sounds",
     category: "Night",
     image: "https://images.pexels.com/photos/1181181/pexels-photo-1181181.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "oGUwhkVzZXI", // Owl Hooting Night - Popular
+    videoId: "Jgkc7I49lSk", // Owl - Embeddable
   },
   // Cozy Sounds
   {
@@ -111,28 +111,28 @@ const sounds: Sound[] = [
     name: "Campfire",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "bGmNjPrVIys", // Campfire 4K 10 Hours - Popular
+    videoId: "f4b_urefKVI", // Campfire - Embeddable
   },
   {
     id: "rain-window",
     name: "Rain on Window",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1529360/pexels-photo-1529360.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "yIQd2Ya0Ziw", // Rain Window 10 Hours - Popular
+    videoId: "QMSdJz24Ssk", // Rain Window - Embeddable
   },
   {
     id: "coffee-shop",
     name: "Coffee Shop",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "vuc4Dzq61pA", // Coffee Shop Lofi - Popular
+    videoId: "uiHZxOk0yQI", // Coffee Shop - Embeddable
   },
   {
     id: "piano",
     name: "Soft Piano",
     category: "Cozy",
     image: "https://images.pexels.com/photos/164935/pexels-photo-164935.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "MfJmSJRBaNE", // Peaceful Piano - 20M+ views
+    videoId: "lCOF9LN_Zxs", // Piano - Embeddable
   },
   // Urban Sounds
   {
@@ -140,21 +140,21 @@ const sounds: Sound[] = [
     name: "City Ambiance",
     category: "Urban",
     image: "https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "1aNSFUlb4V0", // City Sounds Night - Popular
+    videoId: "WdY79zYx82A", // City - Embeddable
   },
   {
     id: "train",
     name: "Train Journey",
     category: "Urban",
     image: "https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "IWNJQZcw6hY", // Train Sounds - Popular
+    videoId: "2Z5q159oM1k", // Train - Embeddable
   },
   {
     id: "airplane",
     name: "Airplane Cabin",
     category: "Urban",
     image: "https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "co7KgV2edvI", // Airplane Cabin - 50M+ views
+    videoId: "caIbK6etWzg", // Airplane - Embeddable
   },
 ]
 
@@ -448,7 +448,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-muted-foreground/50 mt-2">v4.2 - Popular Videos (50M+ views)</p>
+        <p className="text-xs text-muted-foreground/50 mt-2">v5.0 - Fixed Embed Issues</p>
       </div>
     </section >
   )
