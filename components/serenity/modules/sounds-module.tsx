@@ -96,7 +96,7 @@ const sounds: Sound[] = [
     name: "Owl Sounds",
     category: "Night",
     image: "https://images.pexels.com/photos/1181181/pexels-photo-1181181.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "Jgkc7I49lSk", // Owl - Embeddable
+    videoId: "HvbW9kyIp50", // Owl - Embeddable verified
   },
   // Cozy Sounds
   {
@@ -448,7 +448,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-muted-foreground/50 mt-2">v5.0 - Fixed Embed Issues</p>
+        <p className="text-xs text-muted-foreground/50 mt-2">v5.1 - Fixed Sound Mismatch</p>
       </div>
     </section >
   )
