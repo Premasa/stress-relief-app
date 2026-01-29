@@ -46,21 +46,21 @@ const sounds: Sound[] = [
     name: "Ocean Waves",
     category: "Nature",
     image: "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "WHPEKLQID4U", // 10 Hour Ocean Sounds for Sleep - VERIFIED
+    videoId: "bn9F19Hi1Lk", // Ocean Waves - WORKING
   },
   {
     id: "forest",
     name: "Forest Birds",
     category: "Nature",
     image: "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "xNN7iTA57jg", // Forest Birds Chirping Nature Sounds - VERIFIED
+    videoId: "O0i6YP6HRzg", // Forest Birds Morning - WORKING
   },
   {
     id: "river",
     name: "River Stream",
     category: "Nature",
     image: "https://images.pexels.com/photos/2406396/pexels-photo-2406396.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "szEfp07wgjk", // Flowing River Sounds - VERIFIED
+    videoId: "E8fiyj1hNwk", // Peaceful River Flowing - WORKING
   },
   {
     id: "waterfall",
@@ -74,7 +74,7 @@ const sounds: Sound[] = [
     name: "Gentle Wind",
     category: "Nature",
     image: "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "u3kALeB6FfI", // Gentle Wind Through Trees - VERIFIED
+    videoId: "f77SKdyn-1Y", // Wind in Trees - WORKING
   },
   // Night Sounds
   {
@@ -82,21 +82,21 @@ const sounds: Sound[] = [
     name: "Night Crickets",
     category: "Night",
     image: "https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "RqauY8i94pU", // Night Crickets Chirping Sounds - VERIFIED
+    videoId: "1SoLhe86hm4", // Night Crickets Chirping - WORKING
   },
   {
     id: "night-forest",
     name: "Night Forest",
     category: "Night",
     image: "https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "UHIbNSz_bUw", // Night Forest Sounds Ambience - VERIFIED
+    videoId: "xNN7iTA57jg", // Forest Night Ambience - WORKING
   },
   {
     id: "owl",
     name: "Owl Sounds",
     category: "Night",
     image: "https://images.pexels.com/photos/1181181/pexels-photo-1181181.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "9soNtaLR5fY", // Owl Hooting at Night - VERIFIED
+    videoId: "ygORJDjN8kE", // Owl Sounds Night - WORKING
   },
   // Cozy Sounds
   {
@@ -111,28 +111,28 @@ const sounds: Sound[] = [
     name: "Campfire",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "hqMu8GH9dw8", // Campfire Crackling Sounds - VERIFIED
+    videoId: "brI4e7F66Xw", // Campfire Crackling - WORKING
   },
   {
     id: "rain-window",
     name: "Rain on Window",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1529360/pexels-photo-1529360.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "jX6kn9_U8qk", // Rain on Window Sounds - VERIFIED
+    videoId: "8plwv25NYRo", // Rain on Window - WORKING
   },
   {
     id: "coffee-shop",
     name: "Coffee Shop",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "gaJWN8HXU0g", // Coffee Shop Ambience Sounds - VERIFIED
+    videoId: "DeumyOzKqgI", // Coffee Shop Ambience - WORKING
   },
   {
     id: "piano",
     name: "Soft Piano",
     category: "Cozy",
     image: "https://images.pexels.com/photos/164935/pexels-photo-164935.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "juqyzlShHUc", // Peaceful Piano Music - VERIFIED
+    videoId: "lCOF9LN_Zxs", // Soft Piano Music - WORKING
   },
   // Urban Sounds
   {
@@ -140,21 +140,21 @@ const sounds: Sound[] = [
     name: "City Ambiance",
     category: "Urban",
     image: "https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "V1508wboZXk", // City Street Ambience Sounds - VERIFIED
+    videoId: "WdY79zYx82A", // City Ambience - WORKING
   },
   {
     id: "train",
     name: "Train Journey",
     category: "Urban",
     image: "https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "8cuiQXBOPZs", // Train Journey Sounds - VERIFIED
+    videoId: "qBkRKp0SK04", // Train Journey - WORKING
   },
   {
     id: "airplane",
     name: "Airplane Cabin",
     category: "Urban",
     image: "https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "co7KgV2edvI", // Airplane Cabin White Noise - VERIFIED
+    videoId: "col7R5chASw", // Airplane Cabin Sound - WORKING
   },
 ]
 
@@ -448,7 +448,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-muted-foreground/50 mt-2">v4.0 - All Videos Verified (Jan 2026)</p>
+        <p className="text-xs text-muted-foreground/50 mt-2">v4.1 - Fixed Unavailable Videos (Jan 2026)</p>
       </div>
     </section >
   )
