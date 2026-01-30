@@ -32,21 +32,21 @@ const sounds: Sound[] = [
     name: "Gentle Rain",
     category: "Nature",
     image: "https://images.pexels.com/photos/1089455/pexels-photo-1089455.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "nmP_uXst7zM", // Heavy Rain - Ultra Reliable Source
+    videoId: "mPZkdNFqePs", // Gentle Rain (10h) - The Relaxed Guy
   },
   {
     id: "thunderstorm",
     name: "Thunderstorm",
     category: "Nature",
     image: "https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "mPZkdNFqePs", // Thunderstorm (10h) - Relaxing White Noise
+    videoId: "e_pS9y0vYk8", // Thunderstorm & Heavy Rain (10h) - The Relaxed Guy
   },
   {
     id: "ocean",
     name: "Ocean Waves",
     category: "Nature",
     image: "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "f77SKrunzo4", // Tropical Ocean Waves (10h) - Calm
+    videoId: "bn9F19Hi1Lk", // Ocean Waves (10h) - Relaxing White Noise
   },
   {
     id: "forest",
@@ -81,14 +81,14 @@ const sounds: Sound[] = [
     name: "Night Crickets",
     category: "Night",
     image: "https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "baA6mTCn54A", // Night Crickets (8h) - Verified Stable
+    videoId: "baA6mTCn54A", // Night Crickets (8h) - Relaxing White Noise
   },
   {
     id: "night-forest",
     name: "Night Forest",
     category: "Night",
     image: "https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "M0uO8Y9C_M8", // Night Forest (10h) - High Compatibility Alternative
+    videoId: "8L6Xsh_Yv-w", // Night Forest (10h) - Calmed by Nature
   },
   {
     id: "owl",
@@ -273,7 +273,7 @@ export function SoundsModule() {
           {currentSound && (
             <iframe
               key={currentSound.videoId} // CRITICAL: Forces iframe recreation on video change
-              src={`https://www.youtube.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}&enablejsapi=1&nocache=${Date.now()}`}
+              src={`https://www.youtube-nocookie.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}&enablejsapi=1`}
               title={currentSound.name}
               className={`w-full h-full object-cover transition-opacity duration-1000 ${
                 // Simple fade-in effect
@@ -459,7 +459,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-primary font-bold mt-2">v8.3 - Cache-Buster Fix (LAST UPDATED: {new Date().toLocaleTimeString()})</p>
+        <p className="text-xs text-primary font-bold mt-2">v8.4 - Ultimate Compatibility Update (LAST UPDATED: {new Date().toLocaleTimeString()})</p>
       </div>
     </section >
   )
