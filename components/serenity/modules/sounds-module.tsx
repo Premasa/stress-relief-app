@@ -53,7 +53,7 @@ const sounds: Sound[] = [
     name: "Forest Birds",
     category: "Nature",
     image: "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "Y9L6iO-1X38", // Spring Birds (10h) - The Relaxed Guy
+    videoId: "qx8eFpXy9f8", // Spring Forest Birdsong (10h)
   },
   {
     id: "river",
@@ -76,20 +76,19 @@ const sounds: Sound[] = [
     image: "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=600",
     videoId: "q76bMs-NwRk", // Winter Wind (10h) - Relaxing White Noise
   },
-  // Night Sounds
   {
     id: "crickets",
     name: "Night Crickets",
     category: "Night",
     image: "https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "DX0v_0O_UIs", // Summer Night Crickets (10h) - The Relaxed Guy
+    videoId: "baA6mTCn54A", // Night Crickets (8h) - Verified Stable
   },
   {
     id: "night-forest",
     name: "Night Forest",
     category: "Night",
     image: "https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "pZ68tSGoFas", // Night Jungle (10h) - Johnnie Lawson
+    videoId: "ebWF6s2v-Zc", // Night Forest (10h) - High Compatibility
   },
   {
     id: "owl",
@@ -118,7 +117,7 @@ const sounds: Sound[] = [
     name: "Rain on Window",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1529360/pexels-photo-1529360.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "h-q7LzT_e-0", // Rain on Window (10h) - High Quality
+    videoId: "QMSdJz24Ssk", // Rain on Window (10h) - High Quality
   },
   {
     id: "coffee-shop",
@@ -156,9 +155,16 @@ const sounds: Sound[] = [
     image: "https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=600",
     videoId: "caIbK6etWzg", // Airplane - Verified
   },
+  {
+    id: "system-test",
+    name: "System Test",
+    category: "Debug",
+    image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600",
+    videoId: "M7lc1UVf-VE", // YouTube Dev Test Video
+  },
 ]
 
-const categories = ["All", "Nature", "Night", "Cozy", "Urban"]
+const categories = ["All", "Nature", "Night", "Cozy", "Urban", "Debug"]
 
 const categoryIcons: Record<string, React.ReactNode> = {
   All: <Waves className="w-4 h-4" />,
@@ -166,6 +172,7 @@ const categoryIcons: Record<string, React.ReactNode> = {
   Night: <Moon className="w-4 h-4" />,
   Cozy: <Flame className="w-4 h-4" />,
   Urban: <Building2 className="w-4 h-4" />,
+  Debug: <Maximize2 className="w-4 h-4" />,
 }
 
 export function SoundsModule() {
@@ -448,7 +455,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-muted-foreground/50 mt-2">v7.0 - 100% Comprehensive Coverage</p>
+        <p className="text-xs text-muted-foreground/50 mt-2">v8.0 - Extreme Reliability Update</p>
       </div>
     </section >
   )
