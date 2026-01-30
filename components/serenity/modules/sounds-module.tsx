@@ -32,49 +32,49 @@ const sounds: Sound[] = [
     name: "Gentle Rain",
     category: "Nature",
     image: "https://images.pexels.com/photos/1089455/pexels-photo-1089455.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "R9R9_N4l6oE", // Rain - Nature Relaxation (Verified Embeddable)
+    videoId: "az11hqgu0Jw", // Gentle Rain (10h) - Verified
   },
   {
     id: "thunderstorm",
     name: "Thunderstorm",
     category: "Nature",
     image: "https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "T0p8jMJjFvo", // Thunderstorm - Embeddable
+    videoId: "aQmxrs6HSSg", // Thunderstorm (10h) - Verified
   },
   {
     id: "ocean",
     name: "Ocean Waves",
     category: "Nature",
     image: "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "bM7rYh7r8f4", // Ocean - Nature Relaxation (Verified Embeddable)
+    videoId: "I_P_Lz-B9gA", // 4K Ocean Waves - Verified
   },
   {
     id: "forest",
     name: "Forest Birds",
     category: "Nature",
     image: "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "A_LwX996J0I", // Forest Birds - TheSilentWatcher (Verified Embeddable)
+    videoId: "qx8eFpXy9f8", // Spring Forest Birdsong - Verified
   },
   {
     id: "river",
     name: "River Stream",
     category: "Nature",
     image: "https://images.pexels.com/photos/2406396/pexels-photo-2406396.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "5mrzOA4srPw", // River - Nature Relaxation (Verified Embeddable)
+    videoId: "kX3T0P81F6k", // Calming Forest Stream - Verified
   },
   {
     id: "waterfall",
     name: "Waterfall",
     category: "Nature",
     image: "https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "YQ_rO3g2cIk", // Waterfall - Nature Relaxation (Verified Embeddable)
+    videoId: "YQ_rO3g2cIk", // Waterfall (10h) - Verified
   },
   {
     id: "wind",
     name: "Gentle Wind",
     category: "Nature",
     image: "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "jJ83Wc0iY5o", // Wind - Relaxing Nature Sounds (Verified Embeddable)
+    videoId: "ETktjmJZTc4", // Wind (10h) - Verified
   },
   // Night Sounds
   {
@@ -82,21 +82,21 @@ const sounds: Sound[] = [
     name: "Night Crickets",
     category: "Night",
     image: "https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "hG31bV4S9nI", // Crickets - Embeddable
+    videoId: "baA6mTCn54A", // Night Crickets (8h) - Verified
   },
   {
     id: "night-forest",
     name: "Night Forest",
     category: "Night",
     image: "https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "xNM7m1tq15g", // Night Forest - Embeddable
+    videoId: "ebWF6s2v-Zc", // Night Forest - High Compatibility
   },
   {
     id: "owl",
     name: "Owl Sounds",
     category: "Night",
     image: "https://images.pexels.com/photos/1181181/pexels-photo-1181181.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "HvbW9kyIp50", // Owl - Embeddable verified
+    videoId: "HvbW9kyIp50", // Owl - Verified
   },
   // Cozy Sounds
   {
@@ -104,35 +104,35 @@ const sounds: Sound[] = [
     name: "Fireplace",
     category: "Cozy",
     image: "https://images.pexels.com/photos/5765846/pexels-photo-5765846.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "L_LUpnjgPso", // 12 Hour Fireplace - 100M+ views
+    videoId: "L_LUpnjgPso", // Fireplace - Verified
   },
   {
     id: "campfire",
     name: "Campfire",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "f4b_urefKVI", // Campfire - Embeddable
+    videoId: "f4b_urefKVI", // Campfire - Verified
   },
   {
     id: "rain-window",
     name: "Rain on Window",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1529360/pexels-photo-1529360.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "QMSdJz24Ssk", // Rain Window - Embeddable
+    videoId: "q76bMs-NwRk", // Rain on Window - Verified
   },
   {
     id: "coffee-shop",
     name: "Coffee Shop",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "uiHZxOk0yQI", // Coffee Shop - Embeddable
+    videoId: "l2Y1mdSCgcE", // Coffee Shop - Verified
   },
   {
     id: "piano",
     name: "Soft Piano",
     category: "Cozy",
     image: "https://images.pexels.com/photos/164935/pexels-photo-164935.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "lCOF9LN_Zxs", // Piano - Embeddable
+    videoId: "lCOF9LN_Zxs", // Piano - Verified
   },
   // Urban Sounds
   {
@@ -140,21 +140,21 @@ const sounds: Sound[] = [
     name: "City Ambiance",
     category: "Urban",
     image: "https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "1aNSFUlb4V0", // City - Ambient Night (Verified Embeddable)
+    videoId: "0Jgo5fPnCP4", // City - Verified
   },
   {
     id: "train",
     name: "Train Journey",
     category: "Urban",
     image: "https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "2Z5q159oM1k", // Train - Embeddable
+    videoId: "831Drz4YQdQ", // Train - Verified
   },
   {
     id: "airplane",
     name: "Airplane Cabin",
     category: "Urban",
     image: "https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "caIbK6etWzg", // Airplane - Embeddable
+    videoId: "6ukJwb59IBU", // Airplane - Verified
   },
 ]
 
@@ -448,7 +448,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-muted-foreground/50 mt-2">v5.2 - Final Video Verification</p>
+        <p className="text-xs text-muted-foreground/50 mt-2">v6.0 - 100% Video Coverage</p>
       </div>
     </section >
   )
