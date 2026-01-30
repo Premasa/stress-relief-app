@@ -88,7 +88,7 @@ const sounds: Sound[] = [
     name: "Night Forest",
     category: "Night",
     image: "https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "ebWF6s2v-Zc", // Night Forest (10h) - High Compatibility
+    videoId: "qxQf8V6w_2Y", // Night Forest (10h) - High Compatibility Alternative
   },
   {
     id: "owl",
@@ -273,14 +273,15 @@ export function SoundsModule() {
           {currentSound && (
             <iframe
               key={currentSound.videoId} // CRITICAL: Forces iframe recreation on video change
-              src={`https://www.youtube.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1`}
+              src={`https://www.youtube.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1&origin=${typeof window !== 'undefined' ? window.location.origin : ''}`}
               title={currentSound.name}
               className={`w-full h-full object-cover transition-opacity duration-1000 ${
                 // Simple fade-in effect
                 "opacity-100"
                 }`}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
+              referrerPolicy="strict-origin-when-cross-origin"
               style={{ border: 0 }}
             />
           )}
@@ -455,7 +456,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-muted-foreground/50 mt-2">v8.0 - Extreme Reliability Update</p>
+        <p className="text-xs text-muted-foreground/50 mt-2">v8.1 - Enhanced Compatibility Update</p>
       </div>
     </section >
   )
