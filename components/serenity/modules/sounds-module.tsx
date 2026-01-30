@@ -273,7 +273,7 @@ export function SoundsModule() {
           {currentSound && (
             <iframe
               key={currentSound.videoId} // CRITICAL: Forces iframe recreation on video change
-              src={`https://www.youtube.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}&enablejsapi=1`}
+              src={`https://www.youtube.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}&enablejsapi=1&nocache=${Date.now()}`}
               title={currentSound.name}
               className={`w-full h-full object-cover transition-opacity duration-1000 ${
                 // Simple fade-in effect
@@ -459,7 +459,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-muted-foreground/50 mt-2">v8.2 - Ultra-Reliable Diagnostic Update</p>
+        <p className="text-xs text-primary font-bold mt-2">v8.3 - Cache-Buster Fix (LAST UPDATED: {new Date().toLocaleTimeString()})</p>
       </div>
     </section >
   )
