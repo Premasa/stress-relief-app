@@ -32,7 +32,7 @@ const sounds: Sound[] = [
     name: "Gentle Rain",
     category: "Nature",
     image: "https://images.pexels.com/photos/1089455/pexels-photo-1089455.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "nmP_uXst7zM", // Heavy Rain on Tin Roof (10h) - High Quality
+    videoId: "nmP_uXst7zM", // Heavy Rain - Ultra Reliable Source
   },
   {
     id: "thunderstorm",
@@ -88,7 +88,7 @@ const sounds: Sound[] = [
     name: "Night Forest",
     category: "Night",
     image: "https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "qxQf8V6w_2Y", // Night Forest (10h) - High Compatibility Alternative
+    videoId: "M0uO8Y9C_M8", // Night Forest (10h) - High Compatibility Alternative
   },
   {
     id: "owl",
@@ -273,7 +273,7 @@ export function SoundsModule() {
           {currentSound && (
             <iframe
               key={currentSound.videoId} // CRITICAL: Forces iframe recreation on video change
-              src={`https://www.youtube.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&enablejsapi=1&origin=${typeof window !== 'undefined' ? window.location.origin : ''}`}
+              src={`https://www.youtube.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}&enablejsapi=1`}
               title={currentSound.name}
               className={`w-full h-full object-cover transition-opacity duration-1000 ${
                 // Simple fade-in effect
@@ -320,8 +320,11 @@ export function SoundsModule() {
           <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between z-10">
             <div className="px-5 py-3 rounded-2xl bg-white/95 backdrop-blur-md shadow-xl flex items-center gap-3">
               <span className="w-3 h-3 rounded-full bg-green-500 animate-pulse" />
-              <span className="font-semibold text-gray-900">Now Playing:</span>
-              <span className="text-gray-700">{currentSound.name}</span>
+              <div className="flex flex-col">
+                <span className="text-[10px] font-bold text-muted-foreground uppercase tracking-wider">Now Playing</span>
+                <span className="text-sm font-semibold text-foreground leading-tight">{currentSound.name}</span>
+                <span className="text-[9px] font-mono text-muted-foreground/50">{currentSound.videoId}</span>
+              </div>
             </div>
             <button
               onClick={() => {
@@ -456,7 +459,7 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-muted-foreground/50 mt-2">v8.1 - Enhanced Compatibility Update</p>
+        <p className="text-xs text-muted-foreground/50 mt-2">v8.2 - Ultra-Reliable Diagnostic Update</p>
       </div>
     </section >
   )
