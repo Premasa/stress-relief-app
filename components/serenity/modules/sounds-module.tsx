@@ -472,7 +472,7 @@ export function SoundsModule() {
           Use the mute button to toggle sound on/off.
         </p>
         <div className="flex flex-col items-center gap-2 mt-2">
-          <p className="text-xs text-primary font-bold">v9.0 - Platinum Edition (ULTIMATE STABILITY) (LAST UPDATED: {new Date().toLocaleTimeString()})</p>
+          <p className="text-xs text-primary font-bold">v9.5 - Platinum Edition (FINAL SHIELD) (LAST UPDATED: {new Date().toLocaleTimeString()})</p>
           <button
             onClick={() => alert("If you see 'Video Unavailable':\n1. Disable Ad-blockers or VPNs.\n2. Use an Incognito/Private window.\n3. Check if your network/workplace blocks YouTube embeds.\n\nPRO TIP: Use the red 'Open in YouTube' button on the player to watch directly!")}
             className="text-[10px] text-muted-foreground hover:text-primary transition-colors underline"
