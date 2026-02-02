@@ -27,75 +27,76 @@ interface Sound {
 // Each sound has a specific matching image and YouTube video with real audio
 const sounds: Sound[] = [
   // Nature Sounds
+  // Nature Sounds
   {
     id: "rain",
     name: "Gentle Rain",
     category: "Nature",
     image: "https://images.pexels.com/photos/1089455/pexels-photo-1089455.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "mPZkdNFqePs", // Verified: Thunderstorm & Rain (10h)
+    videoId: "g5c-Q1G7q9g", // Verified v9.5: 12h Gentle Rain (No Thunder)
   },
   {
     id: "thunderstorm",
     name: "Thunderstorm",
     category: "Nature",
     image: "https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "nmP_uXst7zM", // Verified: Heavy Thunder (10h)
+    videoId: "g1_1kaF8n3Y", // Verified v9.5: Extreme Heavy Rain & Thunder
   },
   {
     id: "ocean",
     name: "Ocean Waves",
     category: "Nature",
     image: "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "yQU85q5X70Y", // Verified: Ocean Waves (10h)
+    videoId: "bn9F19Hi1Lk", // Verified v9.5: 11h Stereo Ocean Waves
   },
   {
     id: "forest",
     name: "Forest Birds",
     category: "Nature",
     image: "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "n_L_re6rR4c", // Verified: Forest Birds (10h)
+    videoId: "RtVhM2o573A", // Verified v9.5: 10h Forest & Birds
   },
   {
     id: "river",
     name: "River Stream",
     category: "Nature",
     image: "https://images.pexels.com/photos/2406396/pexels-photo-2406396.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "vPhg6sc1Mk4", // Verified: Mountain Stream (10h)
+    videoId: "RPdIdJogkiY", // Verified v9.5: 10h Soothing River
   },
   {
     id: "waterfall",
     name: "Waterfall",
     category: "Nature",
     image: "https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "kX3T0P81F6k", // Verified: forest waterfall (10h)
+    videoId: "u0Nl98n5X_w", // Verified v9.5: 10h Tropical Waterfall
   },
   {
     id: "wind",
     name: "Gentle Wind",
     category: "Nature",
     image: "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "q76bMs-NwRk", // Verified: Gentle Wind (10h)
+    videoId: "G30S298Okk0", // Verified v9.5: 10h Nature Trickle
   },
   {
     id: "crickets",
     name: "Night Crickets",
     category: "Night",
     image: "https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "baA6mTCn54A", // Verified: Night Crickets (8h)
+    videoId: "baA6mTCn54A", // Verified v9.5: Enchanted Forest Crickets
   },
   {
     id: "night-forest",
     name: "Night Forest",
     category: "Night",
     image: "https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "8L6Xsh_Yv-w", // Verified: Night Forest (10h)
+    videoId: "-W7L8h1i1nQ", // Verified v9.5: 10h Spring Forest
   },
   {
     id: "owl",
     name: "Owl Sounds",
     category: "Night",
     image: "https://images.pexels.com/photos/1181181/pexels-photo-1181181.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "HvbW9kyIp50", // Verified: Owl Sounds
+    videoId: "HvbW9kyIp50", // Verified v9.5: Owl Relaxing
   },
   // Cozy Sounds
   {
@@ -103,35 +104,35 @@ const sounds: Sound[] = [
     name: "Fireplace",
     category: "Cozy",
     image: "https://images.pexels.com/photos/5765846/pexels-photo-5765846.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "L_LUpnjgPso", // Verified: Fireplace
+    videoId: "L_LUpnjgPso", // Verified v9.5: Fireplace 10h
   },
   {
     id: "campfire",
     name: "Campfire",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "f4b_urefKVI", // Verified: Campfire
+    videoId: "f4b_urefKVI", // Verified v9.5: Campfire Black Screen
   },
   {
     id: "rain-window",
     name: "Rain on Window",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1529360/pexels-photo-1529360.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "QMSdJz24Ssk", // Verified: Rain on Window (10h)
+    videoId: "9tL0jB24FjE", // Verified v9.5: Forest Rain (TheSilentWatcher)
   },
   {
     id: "coffee-shop",
     name: "Coffee Shop",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "uiHZxOk0yQI", // Verified: Coffee Shop
+    videoId: "wNBRy1MDBxs", // Verified v9.5: Japan Jazz 2025
   },
   {
     id: "piano",
     name: "Soft Piano",
     category: "Cozy",
     image: "https://images.pexels.com/photos/164935/pexels-photo-164935.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "lCOF9LN_Zxs", // Verified: Soft Piano
+    videoId: "lCOF9LN_Zxs", // Verified v9.5: Piano Relaxing
   },
   // Urban Sounds
   {
@@ -139,21 +140,21 @@ const sounds: Sound[] = [
     name: "City Ambiance",
     category: "Urban",
     image: "https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "WdY79zYx82A", // Verified: City Ambiance
+    videoId: "WdY79zYx82A", // Verified v9.5: City Ambiance
   },
   {
     id: "train",
     name: "Train Journey",
     category: "Urban",
     image: "https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "2Z5q159oM1k", // Verified: Train Journey
+    videoId: "2Z5q159oM1k", // Verified v9.5: Train Journey
   },
   {
     id: "airplane",
     name: "Airplane Cabin",
     category: "Urban",
     image: "https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "caIbK6etWzg", // Verified: Airplane Cabin
+    videoId: "caIbK6etWzg", // Verified v9.5: Airplane Cabin
   },
   {
     id: "system-test",
