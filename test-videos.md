@@ -1,32 +1,36 @@
-# Video ID Verification for Sounds Module (v9.0)
+# Video ID Verification for Sounds Module (v9.5)
 
 ## Current Sound-to-Video Mapping
 
 ### Nature Sounds
-1. **Gentle Rain** - `mPZkdNFqePs` - Thunderstorm & Rain (10h)
-2. **Thunderstorm** - `nmP_uXst7zM` - Heavy Thunder (10h)
-3. **Ocean Waves** - `yQU85q5X70Y` - Ocean Waves (10h)
-4. **Forest Birds** - `n_L_re6rR4c` - Forest Birds (10h)
-5. **River Stream** - `vPhg6sc1Mk4` - Mountain Stream (10h)
-6. **Waterfall** - `kX3T0P81F6k` - Forest Waterfall (10h)
-7. **Gentle Wind** - `q76bMs-NwRk` - Gentle Wind (10h)
+1. **Gentle Rain** - `g5c-Q1G7q9g` - 12h Gentle Rain (No Thunder)
+2. **Thunderstorm** - `g1_1kaF8n3Y` - Extreme Heavy Rain & Thunder
+3. **Ocean Waves** - `bn9F19Hi1Lk` - 11h Stereo Ocean Waves
+4. **Forest Birds** - `RtVhM2o573A` - 10h Forest & Birds
+5. **River Stream** - `RPdIdJogkiY` - 10h Soothing River
+6. **Waterfall** - `u0Nl98n5X_w` - 10h Tropical Waterfall
+7. **Gentle Wind** - `G30S298Okk0` - 10h Nature Trickle
 
 ### Night Sounds
-8. **Night Crickets** - `baA6mTCn54A` - Night Crickets (8h)
-9. **Night Forest** - `8L6Xsh_Yv-w` - Night Forest (10h)
-10. **Owl Sounds** - `HvbW9kyIp50` - Owl Sounds
+8. **Night Crickets** - `baA6mTCn54A` - Enchanted Forest Crickets
+9. **Night Forest** - `-W7L8h1i1nQ` - 10h Spring Forest
+10. **Owl Sounds** - `HvbW9kyIp50` - Owl Relaxing
 
 ### Cozy Sounds
-11. **Fireplace** - `L_LUpnjgPso` - Fireplace
-12. **Campfire** - `f4b_urefKVI` - Campfire
-13. **Rain on Window** - `QMSdJz24Ssk` - Rain on Window (10h)
-14. **Coffee Shop** - `uiHZxOk0yQI` - Coffee Shop
-15. **Soft Piano** - `lCOF9LN_Zxs` - Soft Piano
+11. **Fireplace** - `L_LUpnjgPso` - Fireplace 10h
+12. **Campfire** - `f4b_urefKVI` - Campfire Black Screen
+13. **Rain on Window** - `9tL0jB24FjE` - Forest Rain (TheSilentWatcher)
+14. **Coffee Shop** - `wNBRy1MDBxs` - Japan Jazz 2025
+15. **Soft Piano** - `lCOF9LN_Zxs` - Piano Relaxing
 
 ### Urban Sounds
 16. **City Ambiance** - `WdY79zYx82A` - City Ambiance
 17. **Train Journey** - `2Z5q159oM1k` - Train Journey
 18. **Airplane Cabin** - `caIbK6etWzg` - Airplane Cabin
 
-## Status
-All 18 videos have been updated to high-quality, stable versions as of Feb 2, 2026 (v9.0 Platinum).
+### Debug
+19. **System Test** - `M7lc1UVf-VE` - YouTube API Test
+
+---
+**Version: v9.5 Platinum Edition (FINAL SHIELD)**
+**Status: ALL VERIFIED**
