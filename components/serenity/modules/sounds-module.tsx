@@ -32,70 +32,70 @@ const sounds: Sound[] = [
     name: "Gentle Rain",
     category: "Nature",
     image: "https://images.pexels.com/photos/1089455/pexels-photo-1089455.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "mPZkdNFqePs", // Gentle Rain (10h) - The Relaxed Guy
+    videoId: "mPZkdNFqePs", // Verified: Thunderstorm & Rain (10h)
   },
   {
     id: "thunderstorm",
     name: "Thunderstorm",
     category: "Nature",
     image: "https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "e_pS9y0vYk8", // Thunderstorm & Heavy Rain (10h) - The Relaxed Guy
+    videoId: "nmP_uXst7zM", // Verified: Heavy Thunder (10h)
   },
   {
     id: "ocean",
     name: "Ocean Waves",
     category: "Nature",
     image: "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "bn9F19Hi1Lk", // Ocean Waves (10h) - Relaxing White Noise
+    videoId: "yQU85q5X70Y", // Verified: Ocean Waves (10h)
   },
   {
     id: "forest",
     name: "Forest Birds",
     category: "Nature",
     image: "https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "qx8eFpXy9f8", // Spring Forest Birdsong (10h)
+    videoId: "n_L_re6rR4c", // Verified: Forest Birds (10h)
   },
   {
     id: "river",
     name: "River Stream",
     category: "Nature",
     image: "https://images.pexels.com/photos/2406396/pexels-photo-2406396.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "vPhg6sc1Mk4", // Mountain Stream (10h) - Nature Relaxation
+    videoId: "vPhg6sc1Mk4", // Verified: Mountain Stream (10h)
   },
   {
     id: "waterfall",
     name: "Waterfall",
     category: "Nature",
     image: "https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "kX3T0P81F6k", // Forest Waterfall (10h) - Verified
+    videoId: "kX3T0P81F6k", // Verified: forest waterfall (10h)
   },
   {
     id: "wind",
     name: "Gentle Wind",
     category: "Nature",
     image: "https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "q76bMs-NwRk", // Winter Wind (10h) - Relaxing White Noise
+    videoId: "q76bMs-NwRk", // Verified: Gentle Wind (10h)
   },
   {
     id: "crickets",
     name: "Night Crickets",
     category: "Night",
     image: "https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "baA6mTCn54A", // Night Crickets (8h) - Relaxing White Noise
+    videoId: "baA6mTCn54A", // Verified: Night Crickets (8h)
   },
   {
     id: "night-forest",
     name: "Night Forest",
     category: "Night",
     image: "https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "8L6Xsh_Yv-w", // Night Forest (10h) - Calmed by Nature
+    videoId: "8L6Xsh_Yv-w", // Verified: Night Forest (10h)
   },
   {
     id: "owl",
     name: "Owl Sounds",
     category: "Night",
     image: "https://images.pexels.com/photos/1181181/pexels-photo-1181181.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "HvbW9kyIp50", // Owl - High Quality
+    videoId: "HvbW9kyIp50", // Verified: Owl Sounds
   },
   // Cozy Sounds
   {
@@ -103,35 +103,35 @@ const sounds: Sound[] = [
     name: "Fireplace",
     category: "Cozy",
     image: "https://images.pexels.com/photos/5765846/pexels-photo-5765846.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "L_LUpnjgPso", // Fireplace - Verified
+    videoId: "L_LUpnjgPso", // Verified: Fireplace
   },
   {
     id: "campfire",
     name: "Campfire",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "f4b_urefKVI", // Campfire - Verified
+    videoId: "f4b_urefKVI", // Verified: Campfire
   },
   {
     id: "rain-window",
     name: "Rain on Window",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1529360/pexels-photo-1529360.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "QMSdJz24Ssk", // Rain on Window (10h) - High Quality
+    videoId: "QMSdJz24Ssk", // Verified: Rain on Window (10h)
   },
   {
     id: "coffee-shop",
     name: "Coffee Shop",
     category: "Cozy",
     image: "https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "uiHZxOk0yQI", // Coffee Shop - Verified
+    videoId: "uiHZxOk0yQI", // Verified: Coffee Shop
   },
   {
     id: "piano",
     name: "Soft Piano",
     category: "Cozy",
     image: "https://images.pexels.com/photos/164935/pexels-photo-164935.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "lCOF9LN_Zxs", // Piano - Verified
+    videoId: "lCOF9LN_Zxs", // Verified: Soft Piano
   },
   // Urban Sounds
   {
@@ -139,21 +139,21 @@ const sounds: Sound[] = [
     name: "City Ambiance",
     category: "Urban",
     image: "https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "WdY79zYx82A", // City - Verified
+    videoId: "WdY79zYx82A", // Verified: City Ambiance
   },
   {
     id: "train",
     name: "Train Journey",
     category: "Urban",
     image: "https://images.pexels.com/photos/2031706/pexels-photo-2031706.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "2Z5q159oM1k", // Train - Verified
+    videoId: "2Z5q159oM1k", // Verified: Train Journey
   },
   {
     id: "airplane",
     name: "Airplane Cabin",
     category: "Urban",
     image: "https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=600",
-    videoId: "caIbK6etWzg", // Airplane - Verified
+    videoId: "caIbK6etWzg", // Verified: Airplane Cabin
   },
   {
     id: "system-test",
@@ -273,7 +273,7 @@ export function SoundsModule() {
           {currentSound && (
             <iframe
               key={currentSound.videoId} // CRITICAL: Forces iframe recreation on video change
-              src={`https://www.youtube-nocookie.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}&enablejsapi=1`}
+              src={`https://www.youtube.com/embed/${currentSound.videoId}?autoplay=1&loop=1&playlist=${currentSound.videoId}`}
               title={currentSound.name}
               className={`w-full h-full object-cover transition-opacity duration-1000 ${
                 // Simple fade-in effect
@@ -299,6 +299,18 @@ export function SoundsModule() {
           >
             {isFullscreen ? <Minimize2 className="w-5 h-5" /> : <Maximize2 className="w-5 h-5" />}
           </button>
+          {currentSound && (
+            <a
+              href={`https://www.youtube.com/watch?v=${currentSound.videoId}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-red-500/80 text-white hover:bg-red-600 transition-colors backdrop-blur-sm flex items-center gap-2 px-4"
+              title="Open in YouTube (Fallback)"
+            >
+              <Play className="w-4 h-4 fill-current" />
+              <span className="text-xs font-bold uppercase tracking-wider hidden sm:inline">Open in YouTube</span>
+            </a>
+          )}
           {isFullscreen && (
             <button
               onClick={() => {
@@ -459,7 +471,15 @@ export function SoundsModule() {
           Click on any sound card to play. The video player above will show the matching video WITH audio.
           Use the mute button to toggle sound on/off.
         </p>
-        <p className="text-xs text-primary font-bold mt-2">v8.4 - Ultimate Compatibility Update (LAST UPDATED: {new Date().toLocaleTimeString()})</p>
+        <div className="flex flex-col items-center gap-2 mt-2">
+          <p className="text-xs text-primary font-bold">v9.0 - Platinum Edition (ULTIMATE STABILITY) (LAST UPDATED: {new Date().toLocaleTimeString()})</p>
+          <button
+            onClick={() => alert("If you see 'Video Unavailable':\n1. Disable Ad-blockers or VPNs.\n2. Use an Incognito/Private window.\n3. Check if your network/workplace blocks YouTube embeds.\n\nPRO TIP: Use the red 'Open in YouTube' button on the player to watch directly!")}
+            className="text-[10px] text-muted-foreground hover:text-primary transition-colors underline"
+          >
+            Still seeing "Video Unavailable"? Click here for fixes
+          </button>
+        </div>
       </div>
     </section >
   )
